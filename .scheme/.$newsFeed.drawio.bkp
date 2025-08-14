@@ -1,0 +1,57 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Страница — 1" id="pOLxNJGqRbkehDVrlaAr">
+    <mxGraphModel dx="1449" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vzBe8buejQcR76ug3RMC-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Excalifont;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" edge="1" parent="1" source="vzBe8buejQcR76ug3RMC-5" target="vzBe8buejQcR76ug3RMC-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-5" value="Post Service" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="192" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-6" value="пользователь,&lt;div&gt;создавший post&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="192" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-7" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Excalifont;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vzBe8buejQcR76ug3RMC-6" target="vzBe8buejQcR76ug3RMC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="132" as="sourcePoint" />
+            <mxPoint x="610" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Excalifont;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" edge="1" parent="1" source="vzBe8buejQcR76ug3RMC-5" target="vzBe8buejQcR76ug3RMC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Excalifont;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;entryX=0.499;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vzBe8buejQcR76ug3RMC-30" target="vzBe8buejQcR76ug3RMC-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-30" value="PostKafkaProducer" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="200" y="352" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-143" value="KAFKA" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;jiggle=2;curveFitting=1;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;labelBorderColor=none;fontStyle=0;swimlaneFillColor=none;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="519" width="152" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-144" value="" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="vzBe8buejQcR76ug3RMC-143">
+          <mxGeometry x="10" y="33" width="50" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-145" value="" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="vzBe8buejQcR76ug3RMC-143">
+          <mxGeometry x="48" y="33" width="52" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-146" value="" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="vzBe8buejQcR76ug3RMC-143">
+          <mxGeometry x="88" y="33" width="54" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-151" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="160" width="140" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-8" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Excalifont;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="vzBe8buejQcR76ug3RMC-151">
+          <mxGeometry y="22" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vzBe8buejQcR76ug3RMC-10" value="сохранение в POST" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Excalifont;fontSize=12;fontColor=default;" vertex="1" parent="vzBe8buejQcR76ug3RMC-151">
+          <mxGeometry x="20" width="120" height="16" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
